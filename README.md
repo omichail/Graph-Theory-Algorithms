@@ -23,7 +23,7 @@ The application generates high-quality 2D plots comparing the initial graph topo
 
 <p align="center">
   <b>Graph Algorithmic Output & Visualization</b><br><br>
-  <img src="assets/graph_visualization.png" width="80%" alt="Graph Algorithm Visualization"><br><br>
+  <img src="assets/graph-visualization.png" width="80%" alt="Graph Algorithm Visualization"><br><br>
   <sub>Original network topology (left) vs Optimized subgraph/path (right)</sub>
 </p>
 
