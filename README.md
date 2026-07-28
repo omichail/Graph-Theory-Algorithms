@@ -37,3 +37,14 @@ The visualization relies on specific Python libraries. Ensure you have Python 3.
 ```bash
 pip install networkx matplotlib numpy
 ```
+### 3. Compile the C++ Code
+Ensure you have a standard C++ compiler installed (e.g., g++). Navigate to the directory containing the file and compile the backend:
+```bash
+g++ Graph-Theory-Algorithms.cpp -o Graph-Theory-Algorithms
+```
+### 4. Execute the Pipeline
+First, run the C++ binary to compute the algorithm and generate the graph text files. Once the C++ program finishes, run the Python script to visualize the results:
+```DOS
+Graph-Theory-Algorithms.exe
+python graph_visualization.py
+```
